@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="QuickEats - Food delivery at your doorstep"
+    />
+    <title>QuickEats | Food Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+    <div class="container header-content">
+        <h1 class="logo">Quick<span class="highlight">Eats</span></h1>
+        <div class="header-actions">
+           <button id="add-btn" class="add-btn">Add Restaurant</button>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="restaurant-list">
+        <div class="section-header">
+            <h2 class="section-title">Popular Restaurants</h2>
+        </div>
+        <div id="restaurant-grid" class="grid">
+            <!-- Restaurant cards will be injected here by script.js -->
+        </div>
+    </section>
+</main>
+
+<!-- Add Restaurant Modal -->
+<div id="add-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Add New Restaurant</h2>
+        <form id="add-form">
+            <div class="form-group">
+                <label for="name">Restaurant Name</label>
+                <input type="text" id="name" required placeholder="e.g. Taco Fiesta">
+            </div>
+            <div class="form-group">
+                <label for="cuisine">Cuisine</label>
+                <input type="text" id="cuisine" required placeholder="e.g. Mexican • Tacos">
+            </div>
+            <div class="form-group">
+                <label for="rating">Rating</label>
+                <input type="number" id="rating" step="0.1" min="0" max="5" required placeholder="4.5">
+            </div>
+            <div class="form-group">
+                <label for="time">Delivery Time</label>
+                <input type="text" id="time" required placeholder="20-30 min">
+            </div>
+            <div class="form-group">
+                <label for="deliveryFee">Delivery Fee</label>
+                <input type="text" id="deliveryFee" required placeholder="$1.99 or Free">
+            </div>
+            <div class="form-group">
+                <label for="image">Image URL</label>
+                <select id="image">
+                    <option value="images/burger.png">Burger Image</option>
+                    <option value="images/pizza.png">Pizza Image</option>
+                    <option value="images/sushi.png">Sushi Image</option>
+                    <option value="images/salad.png">Salad Image</option>
+                    <option value="images/pasta.png">Pasta Image</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">Add Restaurant</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
