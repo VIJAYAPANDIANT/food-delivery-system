@@ -32,7 +32,7 @@ QuickEats is a premium, responsive food delivery interface designed for modern w
 | :--- | :--- |
 | **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
 | **Styling** | Vanilla CSS (Custom Properties, Flexbox, Grid) |
-| **Typography** | [Inter](https://fonts.google.com/specimen/Inter) via Google Fonts |
+| **Typography** | Google Fonts |
 | **Icons** | Emojis and Custom CSS Icons |
 
 ---
@@ -65,7 +65,7 @@ No build tools are required! This project runs entirely in a standard web browse
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/VIJAYAPANDIANT/Food-Delivery-System-UI-UX-.git
+    git clone https://github.com/VIJAYAPANDIANT/Food-Delivery-System.git
     ```
 
 2.  **Open the Application**
