@@ -11,29 +11,32 @@ QuickEats is a premium, responsive food delivery interface designed for modern w
 ## ✨ Key Features
 
 ### 🍱 Dynamic Restaurant Management
-*   **Real-time Rendering**: Restaurants are loaded dynamically from a centralized data structure.
-*   **Interactive Modal**: Add new dining spots via a beautiful, animated modal interface.
-*   **Predictive Data Entry**: Integrated form validation with instant UI feedback.
+
+- **Real-time Rendering**: Restaurants are loaded dynamically from a centralized data structure.
+- **Interactive Modal**: Add new dining spots via a beautiful, animated modal interface.
+- **Predictive Data Entry**: Integrated form validation with instant UI feedback.
 
 ### 🍱 Premium User Experience
-*   **Visual Excellence**: Modern hover effects, smooth transitions, and glassmorphism elements.
-*   **Micro-interactions**: Subtle animations for buttons and form elements.
-*   **Mobile-First Design**: Fully optimized for smartphones, tablets, and desktops.
+
+- **Visual Excellence**: Modern hover effects, smooth transitions, and glassmorphism elements.
+- **Micro-interactions**: Subtle animations for buttons and form elements.
+- **Mobile-First Design**: Fully optimized for smartphones, tablets, and desktops.
 
 ### 🍱 Information-Rich Components
-*   **Smart Cards**: Displays cuisine type, delivery time, and dynamic delivery fees.
-*   **Rating System**: Integrated visual ratings for quick decision making.
+
+- **Smart Cards**: Displays cuisine type, delivery time, and dynamic delivery fees.
+- **Rating System**: Integrated visual ratings for quick decision making.
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Layer | Technology |
-| :--- | :--- |
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
-| **Styling** | Vanilla CSS (Custom Properties, Flexbox, Grid) |
-| **Typography** | Google Fonts |
-| **Icons** | Emojis and Custom CSS Icons |
+| Layer          | Technology                                     |
+| :------------- | :--------------------------------------------- |
+| **Frontend**   | HTML5, CSS3, JavaScript (ES6+)                 |
+| **Styling**    | Vanilla CSS (Custom Properties, Flexbox, Grid) |
+| **Typography** | Google Fonts                                   |
+| **Icons**      | Emojis and Custom CSS Icons                    |
 
 ---
 
@@ -64,8 +67,9 @@ No build tools are required! This project runs entirely in a standard web browse
 ### Installation
 
 1.  **Clone the Repository**
+
     ```bash
-    git clone https://github.com/VIJAYAPANDIANT/Food-Delivery-System.git
+    git clone https://github.com/VIJAYAPANDIANT/food-delivery-system.git
     ```
 
 2.  **Open the Application**
@@ -79,10 +83,10 @@ No build tools are required! This project runs entirely in a standard web browse
 
 ## 🎨 Design System
 
-*   **Primary Accent**: `#fa4a0c` (Vibrant Restaurant Red/Orange)
-*   **Backgrounds**: `#fafafa` (Light Mode), `#ffffff` (Plates)
-*   **Typography**: Inter (System-safe with modern fallback)
-*   **Visual Cues**: 12px border radius for a soft, premium feel.
+- **Primary Accent**: `#fa4a0c` (Vibrant Restaurant Red/Orange)
+- **Backgrounds**: `#fafafa` (Light Mode), `#ffffff` (Plates)
+- **Typography**: Inter (System-safe with modern fallback)
+- **Visual Cues**: 12px border radius for a soft, premium feel.
 
 ---
 
